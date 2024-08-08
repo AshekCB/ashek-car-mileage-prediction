@@ -3,7 +3,7 @@ import math as m
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
-df=pd.read_csv("D:\Flask Demo's\car mileage prediction\car mileage prediction.csv")
+df=pd.read_csv("https://github.com/AshekCB/ashek-car-mileage-prediction/raw/main/car%20mileage%20prediction.csv")
 df=df.drop(['Unnamed: 0'],axis=1)
 x=df.drop(['mpg'],axis=1)
 y=df['mpg']
